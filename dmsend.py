@@ -12,7 +12,7 @@ client = discord.Client()
 @client.event
 async def on_ready():
     print("미르고 딱대 ")
-    game = discord.Game('~하는 중 ex)봇만들기 하는 중')
+    game = discord.Game('')
     await client.change_presence(status=discord.Status.online, activity=game)
 
 #/dm {할말}로 전체DM 전송
