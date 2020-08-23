@@ -11,7 +11,7 @@ client = discord.Client()
 
 @client.event
 async def on_ready():
-    print("봇실행이 시작되었습니다(24시간 온라인).")
+    print("미르고 딱대 ")
     game = discord.Game('~하는 중 ex)봇만들기 하는 중')
     await client.change_presence(status=discord.Status.online, activity=game)
 
@@ -25,13 +25,13 @@ async def on_message(message):
             else:
                 try:
                     msg = message.content[4:]
-                    if message.author.id == 디스코드ID를 적기!!:
-                        embed = discord.Embed(colour=0x1DDB16, timestamp=message.created_at, title="최상단 제목")
-                        embed.add_field(name="제목", value=msg, inline=True)
-                        embed.set_footer(text=f"서버초대코드")
+                    if message.author.id == 710780862421008384!!:
+                        embed = discord.Embed(colour=0x1DDB16, timestamp=message.created_at, title="미르고등학교")
+                        embed.add_field(name="빨리와", value=msg, inline=True)
+                        embed.set_footer(text=f"https://discord.gg/UukXqYs")
                         await i.send(embed=embed)
                 except:
                     pass
 
 
-client.run('봇의 토큰을 넣어주세용')
+client.run('STdbHSATGkLvkq5CNRgN5rVRY5LWTIif')
